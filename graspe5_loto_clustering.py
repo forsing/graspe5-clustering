@@ -481,7 +481,7 @@ graspe: /Users/4c/Desktop/GHQ/third_party/graspe/src/graspe
 Embedding: Ensemble (DW+UB) | klasterovanje: kmeans | k=7 | silhouette≈0.0702
 
 Predikcija (diverzifikacija po klasterima + marginal unutar klastera):
-[8, 22, 23, 34, 35, 37, 39]
+[8, 22, x, y, z, 37, 39]
 """
 
 
@@ -522,7 +522,7 @@ Embedding: Ensemble (DW+UB) | klasterovanje: agglomerative | k=10 | silhouette�
   25 → 2
   26 → 7
   27 → 6
-  28 → 9
+  28 → x
   29 → 1
   30 → 5
   31 → 7
@@ -536,19 +536,19 @@ Embedding: Ensemble (DW+UB) | klasterovanje: agglomerative | k=10 | silhouette�
   39 → 0
 
 Klaster → čvorovi:
-  0: [5, 14, 32, 38, 39]
+  0: [5, 14, x, 38, 39]
   1: [17, 29, 34]
-  2: [1, 16, 18, 25, 33]
-  3: [3, 6, 7, 8, 11, 12, 19, 36]
+  2: [1, 16, x, 25, 33]
+  3: [3, 6, 7, x, y, z, 19, 36]
   4: [15, 21, 35]
   5: [4, 9, 22, 30]
   6: [10, 13, 23, 27]
-  7: [2, 24, 26, 31, 37]
+  7: [2, 24, x, 31, 37]
   8: [20]
   9: [28]
 
 Predikcija (diverzifikacija po klasterima + marginal unutar klastera):
-[8, 22, 23, 25, 32, 34, 37]
+[8, 22, x, y, z, 34, 37]
 """
 
 
@@ -562,7 +562,7 @@ graspe: /Users/4c/Desktop/GHQ/third_party/graspe/src/graspe
 Embedding: DeepWalk (NX+W2V) | klasterovanje: kmeans | k=7 | silhouette≈0.0676
 
 Predikcija (diverzifikacija po klasterima + marginal unutar klastera):
-[8, 23, 25, 33, 34, 37, 39]
+[8, 23, x, y, z, 37, 39]
 """
 
 
@@ -592,7 +592,7 @@ Embedding: DeepWalk (NX+W2V) | klasterovanje: kmeans | k=7 | silhouette≈0.0892
   14 → 3
   15 → 1
   16 → 4
-  17 → 5
+  17 → x
   18 → 0
   19 → 1
   20 → 2
@@ -617,16 +617,16 @@ Embedding: DeepWalk (NX+W2V) | klasterovanje: kmeans | k=7 | silhouette≈0.0892
   39 → 2
 
 Klaster → čvorovi:
-  0: [1, 4, 18, 22, 25]
-  1: [6, 7, 8, 15, 19, 21, 28, 31, 34, 35]
-  2: [3, 5, 12, 20, 24, 38, 39]
+  0: [1, 4, x, 22, 25]
+  1: [6, 7, 8, x, y, z, 28, 31, 34, 35]
+  2: [3, 5, x, y, z, 38, 39]
   3: [2, 9, 14, 26, 30, 37]
-  4: [11, 13, 16, 27, 29, 33, 36]
+  4: [11, 13, x, y, z, 33, 36]
   5: [10, 17, 32]
   6: [23]
 
 Predikcija (diverzifikacija po klasterima + marginal unutar klastera):
-[10, 23, 25, 33, 34, 37, 39]
+[10, 23, x, y, z, 37, 39]
 """
 
 
@@ -640,7 +640,7 @@ graspe: /Users/4c/Desktop/GHQ/third_party/graspe/src/graspe
 Embedding: Ensemble (DW+UB) | klasterovanje: spectral | k=9 | silhouette≈0.0316
 
 Predikcija (diverzifikacija po klasterima + marginal unutar klastera):
-[8, 11, 22, 23, 32, 34, 37]
+[8, 11, x, y, z, 34, 37]
 """
 
 
